@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * _islower - checks if input alphabet(in this example
+ * letter c).
+ * @c: the letter being checked
  *
- * Return: Always 0.
- *
+ * Return: 1 if lowercase, else 0.
  */
 
-int main(void)
+int _islower(int c)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	if (c >= 'a' && c <= 'z')
+		return (1);
+	else
+		return (0);
 }
