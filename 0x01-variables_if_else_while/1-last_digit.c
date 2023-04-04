@@ -3,13 +3,12 @@
 #include <time.h>
 
 /**
- * main - Entry point of the program
- * Description: The main function generates a random 
- * number and
- * computes the last digit to output the corresponding 
- * string.
- * Return: Always 0 (success)
- */
+*main - Entry point of the program Description: The main fun*ction generates a random
+* number and
+* computes the last digit to output the corresponding 
+* string.
+* Return: Always 0 (success)
+*/
 
 int main(void)
 {
