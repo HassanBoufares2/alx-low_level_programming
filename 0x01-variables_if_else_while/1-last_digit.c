@@ -12,7 +12,6 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	int n;
@@ -39,4 +38,4 @@ int main(void)
 			lastdigit);
 	}
 	return (0);
-	}
+}
