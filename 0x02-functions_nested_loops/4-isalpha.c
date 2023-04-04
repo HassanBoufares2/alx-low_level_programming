@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point ,this prints alphabet
- * in lowercase
+ * _isalpha - checks if the character is alpha
+ * @c: letter to be checked
  *
- * Return: Always 0.
+ * Return: 1 if its alphabet ,else 0.
  */
 
-void print_alphabet(void)
-	{
-		char alpha;
-
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
-		_putchar(alpha);
-
-		_putchar('\n');
-	}
+int _isalpha(int c)
+{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
+		return (1);
+	else
+		return (0);
+}
